@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 public class LocatorsDemo {
 	public static void main(String[] args) { 
 	WebDriver driver = new ChromeDriver();
-	driver.navigate().to("https://www.facebook.com");
+	driver.navigate().to("https://www.flipkart.com");
 	//driver.get("https://www.yahoo.com/");	
 	//driver.findElement(By.name("q")).sendKeys("mobiles");
 	driver.getTitle();
